@@ -28,5 +28,6 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 CMD curl 
 
 # Start the Node.js backend application
 #this is to teach -test 
+#changes made in Github
 CMD ["npm", "start"]
 
